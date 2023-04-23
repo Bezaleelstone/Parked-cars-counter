@@ -1,0 +1,56 @@
+body {
+    background-image: url("bmw-cars.jpg");
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    text-shadow: 1px 1px grey;
+}
+
+p {
+    background: grey;
+    max-width: 40%;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    box-shadow: 0.5px 3px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+#increment-btn {
+    background: #a3b18a;
+    
+}
+
+#save-btn {
+    background: #dda15e;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 20px;
+    max-width: 80%;
+    margin: auto;
+}
